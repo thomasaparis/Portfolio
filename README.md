@@ -13,11 +13,11 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+<!--![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)-->
 
 ## Credit
 
-Credit to Brittany Chiang!
+Credit to [Brittany Chiang](https://github.com/bchiang7/v4) for laying the ground work!
 
 ## Dependencies
 

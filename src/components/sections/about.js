@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'TypeScript',
+    'JavaScript (ES6+)',
+    'React',
+    'Elixir',
+    'Phoneix',
+    'Node.js',
+    'Python',
+    'PostgreSQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +144,32 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hi, I’m Thomas Paris, and my journey into software development started with a simple
+              love for technology. Growing up, I was always fascinated by how things worked—from the
+              games I played to the gadgets I used. This curiosity about technology quickly evolved
+              into a deep interest in understanding how software was built and how I could create my
+              own.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              As a teenager, I began exploring different programming languages, experimenting with
+              small projects, and teaching myself how to build things from scratch. The thrill of
+              problem-solving and the satisfaction of turning ideas into functional code fueled my
+              passion and pushed me to pursue a career in software development.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Today, I’m driven by the endless possibilities that technology offers. Whether it’s
+              building user-friendly websites, developing innovative apps, or creating software
+              solutions, I love the challenge of turning complex problems into elegant, efficient
+              solutions. My experience with tackling real-world challenges has taught me to think
+              critically and approach problems with a solution-oriented mindset, which now shapes
+              how I approach coding and development.
+            </p>
+
+            <p>
+              I’m always eager to learn, grow, and take on new challenges, and I’m excited to
+              continue my journey in the tech world, crafting solutions that make a real impact.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +184,8 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              // TODO: replace photo
+              // src="../../images/me.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
